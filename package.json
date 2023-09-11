@@ -1,11 +1,14 @@
 {
   "name": "strate",
   "module": "index.ts",
-  "type": "module",
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "auth0-access-token-jwt": "^1.0.3"
   }
 }
